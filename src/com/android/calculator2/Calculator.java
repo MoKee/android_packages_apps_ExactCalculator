@@ -353,10 +353,12 @@ public class Calculator extends Activity
                 mFormulaText.setTextColor(errorColor);
                 mResultText.setTextColor(errorColor);
                 getWindow().setStatusBarColor(errorColor);
+                getWindow().setNavigationBarColor(errorColor);
             } else if (mCurrentState != CalculatorState.RESULT) {
                 mFormulaText.setTextColor(getColor(R.color.display_formula_text_color));
                 mResultText.setTextColor(getColor(R.color.display_result_text_color));
                 getWindow().setStatusBarColor(getColor(R.color.calculator_accent_color));
+                getWindow().setNavigationBarColor(getColor(R.color.calculator_accent_color));
             }
 
             invalidateOptionsMenu();

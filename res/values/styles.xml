@@ -20,6 +20,7 @@
     <style name="Theme" parent="@android:style/Theme.Material.Light.DarkActionBar">
         <item name="android:colorPrimary">@color/calculator_accent_color</item>
         <item name="android:statusBarColor">@color/calculator_accent_color</item>
+        <item name="android:navigationBarColor">@color/calculator_accent_color</item>
         <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
     </style>
 
