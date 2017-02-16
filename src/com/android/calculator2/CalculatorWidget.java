@@ -114,7 +114,7 @@ public class CalculatorWidget extends AppWidgetProvider {
                 }
 
                 // Append the new operator
-                if (equation.length() > 1) {
+                if (equation.length() > 0) {
                     equation += op;
                 }
             } else if (lastChar != '-') {
